@@ -28,7 +28,7 @@ public class CodeSnippet {
     @Column(name = "id", updatable = false, nullable = false)
     private UUID id;
 
-    @Column(name = "code_snippet")
+    @Column(name = "code_snippet", columnDefinition = "TEXT")
     private String code;
 
     @Column(name = "date")

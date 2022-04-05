@@ -1,6 +1,7 @@
 #code_snippet {
     margin-bottom: 8px;
-    height: 250px;
+    height: 100px;
+    width: 500px;
 }
 
 #time_restriction, #views_restriction {
