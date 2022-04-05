@@ -33,9 +33,12 @@ Api endpoints are the following:
 3. `GET /api/code/latest` return the JSON array of the 10 most recently uploaded code snippets, ordered from newest to oldest, that have no view and/or time limit :
     
 Web endpoints are the following:
-1. `/code/new` return html page,that contains a text area for users to add a new code snippet, along with inputs for time and views restriction (optional)
+1. `/code/new` return html page,that contains a text area for users to add a new code snippet, along with inputs for time and views restriction (optional):
+    
 ![Alt text](images/new.png?raw=true "Create code")
 2. `/code/latest` : return a dynamic page of the 10 most recently loaded code snippets, ordered from newest to oldest, that have no view and/or time limits:
+
 ![Alt text](images/latest.png?raw=true "Create code")
-3. `/api/code/{id}` return HTML that contains the code snippet (and restrictions, if applicable) given its id
+3. `/api/code/{id}` return HTML that contains the code snippet (and restrictions, if applicable) given its id:
+
 ![Alt text](images/code_snipped.png?raw=true "Create code")
